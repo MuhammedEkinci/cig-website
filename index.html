@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!--Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Noto+Sans+TC:wght@100&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+        <!--style.css link-->
+        <link rel="stylesheet" href="style.css">
+
+        <title>Cig-Website</title>
+    </head>
+    <body>
+        <!------header----->
+        <div class="container">
+            <header class="header">
+                <h1 id="logo">Logo here</h1>
+                <a class="nav-item nav-link active" id="profile" href="profile.html">Profile</a>
+            </header>
+
+            <!------navbar----->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CATEGORIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Cigarettes</a>
+                        <a class="dropdown-item" href="#">e-cigs</a>
+                        <a class="dropdown-item" href="#">Cigarette Cases</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NEW PORTS</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                        <div class="top-img carousel-inner">
+                          <div class="carousel-item active" data-interval="10000">
+                            <img src="https://cdn3.volusion.com/djqrj.kxptz/v/vspfiles/photos/PUFF-PLUS-Disposable-7.jpg?v-cache=1586256942" class="d-block w-100" alt="puff bar">
+                          </div>
+                          <div class="carousel-item" data-interval="2000">
+                            <img src="data:image/jpeg;base64,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5RtbLe/C3lN7ziYpqOAA+ITfuRLwzS95rfQgtWtvMPSMRELEREBERAREQNZ5RmH9mYgf6F+sWZZ11PlPplhvfst8VhqlFWyGotg2XPY3BBtcX4ds19m23fvqgf8A04/jQLrbe6K4qvz5rFTlVQvNBh0QRlbpAOhJuVI11F7HSxbk+pm3t9rF2uMMikF0rIUU36NMCsTkGl1v1yfNtz3VR/d5/FjNtz3VR/d5/FgVBuPTuhNRb02vmGFphmXnKdTpte7OTSALniGbQSlguT6jSem/PuxouGW4YdBGTmaSlWFsi0qaXN7gHS5kc23PdVH93n8WM23PdVH93n8WBPitxKNVnNRwwerWq64amzHnqeIXLUc61AhxTFb2yhFHaZbVuTeg4cNWZucFYAsmcg1adVc5zMQWU1iVIAItbrJlbNtz3VR/d5/FjNtz3VR/d5/FgTjcWkrl0qAA1GcU2w1Koih6teoQqHQMPVBCtbS3A3IlTY25vqWsK64ks4Dq16KgMKhoZyQDZSRh1GlgCxIAAAlDNtz3VR/d5/FjNtz3VR/d5/FgbfkmF3SP9+2mP/NUP5ChMUG237qofu4/jTM7o7Ir0Xr1sRWWrVxVRKrlaPMqMlFKQAXM3Ug64Gzzzby2+GanvFD6JnpKct385La20sa2LTFrSDoiZGoF7ZBbiHHogcEida9gvE/pCn81b8SPYLxP6Qp/NW/EgYLkP8Mp8HrehZ6QE5duFyW1tm40Yt8WtULTdAi0Cl89tblj2dk6hA848uHhh/g9H+qaDO+7+8l1baWNOLTFrSDU0TI1AvbICL3DDtmuewXif0hT+bN+JA5LN75E/DNL3qt9CZ/2C8T+kKfzVvxJsO4fJZW2bjVxb4taoRHXItApfOtuJYwOpREQEREBERAREQIESXmx2SeIEnNDsjmh2SeIEnNDsjmh2SeIEnNDsjmh2SeIEnNDsjmh2SeIEnNjskwEjEBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA//2Q==" class="d-block w-100" alt="Juul">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://discountvapepen.com/wp-content/uploads/2018/06/Myle-Kit-503x570.jpg" class="d-block w-100" alt="myle cig">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/8cc12ec6d2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

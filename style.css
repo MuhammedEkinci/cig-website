@@ -1,0 +1,20 @@
+.header {
+    background-color: rgb(122, 32, 32);
+    color: white;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    padding: 10px;
+}
+
+#profile {
+  color: white;
+  
+}
+
+.top-img  img{
+    width: 300px;
+    height: 300px;
+}
