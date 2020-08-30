@@ -14,7 +14,17 @@
   
 }
 
+
 .top-img  img{
     width: 300px;
     height: 300px;
+}
+
+.top-ad {
+    width: 400px;
+    max-width: 50%;
+}
+
+.aside-cigs {
+    margin: 30px;
 }
